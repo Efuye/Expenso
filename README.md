@@ -51,7 +51,7 @@ Dashboard | All Income | All Expense | Details | Add Transaction
 
 ## Package Structure 📦
     
-    dev.spikeysanju.expenso # Root Package
+    dev.efuye.split # Root Package
     ├── di                  # Hilt DI Modules 
     ├── data                # For data handling.
     │   ├── local           # Local Persistence Database. Room (SQLite) database

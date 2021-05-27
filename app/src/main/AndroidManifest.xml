@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dev.spikeysanju.expensetracker">
+    package="dev.efuye.split">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 
     <application
-        android:name=".app.ExpenseTracker"
+        android:name="dev.efuye.split.app.ExpenseTracker"
         android:allowBackup="true"
         android:icon="@drawable/ic_logo"
         android:label="@string/app_name"
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExpenseTracker">
         <activity
-            android:name=".view.main.MainActivity"
+            android:name="dev.efuye.split.view.main.MainActivity"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
