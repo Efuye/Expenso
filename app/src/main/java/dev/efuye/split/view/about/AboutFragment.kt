@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
 import dev.efuye.split.BuildConfig
+import dev.efuye.split.R
 import dev.efuye.split.databinding.FragmentAboutBinding
 import dev.efuye.split.view.base.BaseFragment
 

@@ -9,10 +9,12 @@ import android.view.*
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ShareCompat
 import androidx.core.content.ContextCompat
+import androidx.core.view.drawToBitmap
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import cleanTextContent
 import dagger.hilt.android.AndroidEntryPoint
 import dev.efuye.split.R
 import dev.efuye.split.databinding.FragmentTransactionDetailsBinding
@@ -21,7 +23,10 @@ import dev.efuye.split.utils.saveBitmap
 import dev.efuye.split.utils.viewState.DetailState
 import dev.efuye.split.view.base.BaseFragment
 import dev.efuye.split.view.main.viewmodel.TransactionViewModel
+import hide
+import indianRupee
 import kotlinx.coroutines.flow.collect
+import show
 
 @AndroidEntryPoint
 class TransactionDetailsFragment : BaseFragment<FragmentTransactionDetailsBinding, TransactionViewModel>() {

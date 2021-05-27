@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
 import dagger.hilt.android.AndroidEntryPoint
 import dev.efuye.split.R
 import dev.efuye.split.databinding.FragmentAddTransactionBinding
@@ -14,6 +15,7 @@ import dev.efuye.split.utils.Constants
 import dev.efuye.split.view.base.BaseFragment
 import dev.efuye.split.view.main.viewmodel.TransactionViewModel
 import parseDouble
+import transformIntoDatePicker
 import java.util.*
 
 @AndroidEntryPoint

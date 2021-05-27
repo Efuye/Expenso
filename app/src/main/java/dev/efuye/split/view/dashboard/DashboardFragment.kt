@@ -7,10 +7,12 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
@@ -21,8 +23,12 @@ import dev.efuye.split.utils.viewState.ViewState
 import dev.efuye.split.view.adapter.TransactionAdapter
 import dev.efuye.split.view.base.BaseFragment
 import dev.efuye.split.view.main.viewmodel.TransactionViewModel
+import hide
+import indianRupee
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.first
+import show
+import kotlin.math.abs
 
 @AndroidEntryPoint
 class DashboardFragment :
